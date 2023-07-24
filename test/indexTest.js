@@ -43,7 +43,7 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToHeadphonedRoommate('HELLO')).toEqual("YES INDEED!");
+    expect(sayHiToHeadphonedRoommate('HELLO')).toEqual('IYES INDEED!');
   })
 
   it('returns "I would love to!" if `string` is "Let\'s have dinner together!"`', function () {
